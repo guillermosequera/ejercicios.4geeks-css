@@ -1,8 +1,32 @@
+body {
+	background: black;
+}
+.container {
+	background-color: white;
+	width: 100%;
+	height: 170px;
+}
 #my-first-div {
 	font-size: 15px;
+	border: black solid;
+	width: max-content;
+	position: absolute;
+	background: white;
 }
 #the-second-one {
 	font-size: 25px;
+	border: black solid;
+	width: max-content;
+	float: right;
+	background: white;
+	border-left: 10%;
 }
 
 /* YOUR CODE BELOW THIS LINE */
+h2 {
+	font-size: 0.8em;
+}
+
+h3 {
+	font-size: 0.8rem;
+}
